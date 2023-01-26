@@ -403,8 +403,8 @@ namespace MeshCentralRouter
             }
             else
             {
-                if (currentPanel == 4 && (argflags & 4) != 4)
-                    passwordTextBox.Text = "";
+                //if (currentPanel == 4 && (argflags & 4) != 4)
+                //    passwordTextBox.Text = "";
 
                 this.Height = initialHeight;
                 this.FormBorderStyle = FormBorderStyle.FixedSingle;
